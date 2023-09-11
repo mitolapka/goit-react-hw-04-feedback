@@ -8,4 +8,3 @@ export const Section = ({ title, children }) => {
         </div>
     );
 };
-export default Section;

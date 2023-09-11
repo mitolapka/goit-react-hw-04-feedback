@@ -1,4 +1,6 @@
-import { DataButton } from './Data.styled.js'
+import React from 'react';
+import { DataButton } from './Data.styled.js';
+
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
         <div>
@@ -10,4 +12,4 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         </div>
     );
 };
-export default FeedbackOptions;
+
